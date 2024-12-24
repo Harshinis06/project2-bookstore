@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+header{
+   background-color:chocolate;
+	}
+	.img1{
+		position: relative;
+	}
+	.text1{
+		position: absolute;
+		top: 50%; left: 50%; 
+		transform: translate(-50%, -50%); 
+		text-align: center; 
+		color: white; 
+		font-size: 24px;
+	}
+	
+	p{
+		
+         font-family:French Script MT;
+		font-size: 60px;
+	}
+	
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+	 span{
+	   color: darkslateblue;
+	   /*font-family:cursive;*/
+	   font-size: 20px;
+	   text-align: center;
+   }
+	 .gradient-overlay {
+            position: relative;
+            background-image: url('image/pexels-min-an-694740.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 300px; 
+            width: 1550;
+        }
+        
+         .gradient-overlay1 {
+            position: relative;
+            background-image: url('image/Image-Of-A-Darkened-Room-With-A-Bookshelf-Ladder.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px; 
+            width: 1550;
+        }
+        
+         .gradient-overlay2{
+            position: relative;
+            background-image: url('image/pexels-adegbenro-emmanuel-5039252.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 300px; 
+            width: 1550;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)); /* Adjust gradient colors and transparency */
+        }
+
+    
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
